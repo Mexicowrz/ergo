@@ -690,6 +690,10 @@ type Config struct {
 	}
 
 	Filename string
+
+	ActiveFriends struct {
+		Enabled bool
+	} `yaml:"activefriends"`
 }
 
 // OperClass defines an assembled operator class.
